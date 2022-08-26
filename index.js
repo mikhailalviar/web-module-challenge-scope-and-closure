@@ -35,7 +35,7 @@ console.log('example task:', processFirstItem(['foo','bar'],function(str){return
   //counter1 code uses a closure because the return function gives it access to the outer functions scope
   3. In what scenario would the counter1 code be preferable? In what scenario would 
      counter2 be better?  
-     //You would use counter1 code if you wan to keep a memory of past numbers
+     //You would use counter1 code if you would want to keep the count variable from being accessed by other code
 */
 
 // counter1 code
